@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - KAPED One Application</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+<link rel='stylesheet' href='https://codepen.io/pen?template=OJBZzKO.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="form.html" method="POST">
+  <h1>KAPED One Application</h1>
+   <fieldset>
+     <legend>IMPORTANT INFORMATION ABOUT PROCEDURES FOR OPENING A NEW ACCOUNT</legend>
+     ‍To help the government fight the funding of terrorism and money laundering  activities, Federal law requires all financial institutions to obtain, verify, and record information that identifies each person who opens an account. What this means for you: When you open an account, we will ask for your name,  address, date of birth, and other information that will allow us to identify you. We  may also ask to see your driver's license or other identifying documents.
+     </fieldset>
+  <br>
+  </br>
+  <fieldset>
+    <legend>Owner 1</legend>
+    <label for="first name">First Name</label>
+    <input type="text" name="first-name" />
+    <label for="middle initial">Middle Initial</label>
+    <input type="text" name="middle initial" />
+    <label for="last name">Last Name</label>
+    <input type="text" name="last-name" />
+    <br/>
+    </br>
+    <label for="email address">Email</label>
+    <input type="text" name="email" placeholder="janedoe31@yahoo.com" />
+    <label for="telephone">Contact Number</label>
+    <input type="text" name="telephone" />
+    <br/>
+    </br>
+    <label for="home address">Home Address</label>
+    <input type="text" name="address" />
+    <label for="home address 2">Home Address 2</label>
+    <input type="text" name="address2" />
+    <label for="city">City</label>
+    <input type="text" name="city" />
+    <label for="state">State</label>
+    <input type="text" name="state" />
+    <label for="zip">Zip Code</label>
+    <input type="text" name="zip" />
+    <br/>
+    </br>
+    <label for="dob">Date of Birth</label>
+    <input type="text" name="dob" />
+    <label for="ssn">SSN</label>
+    <input type="text" name="ssn" />
+    </br>
+  </br>
+  <label for="dlnumber">Drivers License Number</label>
+    <input type="text" name="dlnumber" />
+  <label for="dlstate">Drivers License State</label>
+    <input type="text" name="dlstate" />
+  <label for="dldoi">Drivers License Date of Issuance</label>
+    <input type="date" name="dldoi" />
+  <label for="dlexp">Drivers License Exp.</label>
+    <input type="date" name="dlexp" />
+  </fieldset>
+<fieldset>
+    <legend>Owner 2</legend>
+    <label for="first name2">First Name</label>
+    <input type="text" name="first-name2" />
+    <label for="middle initial2">Middle Initial</label>
+    <input type="text" name="middle initial2" />
+    <label for="last name2">Last Name</label>
+    <input type="text" name="last-name2" />
+    <br/>
+    </br>
+    <label for="email address2">Email</label>
+    <input type="text" name="email2" placeholder="janedoe31@yahoo.com" />
+    <label for="telephone2">Contact Number</label>
+    <input type="text" name="telephone2" />
+    <br/>
+    </br>
+    <label for="home address2">Home Address</label>
+    <input type="text" name="address2" />
+    <label for="home address 22">Home Address 2</label>
+    <input type="text" name="address22" />
+    <label for="city2">City</label>
+    <input type="text" name="city2" />
+    <label for="state2">State</label>
+    <input type="text" name="state2" />
+<label for="zip2">Zip</label>
+    <input type="text" name="zip2" />
+    <br/>
+    </br>
+    <label for="dob2">Date of Birth</label>
+    <input type="date" name="dob2" />
+    <label for="ssn2">SSN</label>
+    <input type="text" name="ssn2" />
+    </br>
+  </br>
+  <label for="dlnumber2">Drivers License Number</label>
+    <input type="text" name="dlnumber2" />
+  <label for="dlstate2">Drivers License State</label>
+    <input type="text" name="dlstate2" />
+  <label for="dldoi2">Drivers License Date of Issuance</label>
+    <input type="date" name="dldoi2" />
+  <label for="dlexp2">Drivers License Exp.</label>
+    <input type="date" name="dlexp2" />
+  </fieldset>
+<br>
+</br>
+  <fieldset>
+    <legend>Business Information</legend>
+    <label for="company name">Company Name</label>
+    <input type="text" name="company name" />
+    <label for="ein">EIN</label>
+    <input type="number" name="ein" />
+    <label for="company location">Company Address</label>
+    <input type="text" name="company location" />
+    <br>
+    </br>
+    <label for="website">Website</label>
+    <input type="url" name="website" />
+    <label for="sic">SIC Code</label>
+    <input type="number" name="sic" />
+    <label for="start-date">Start Date</label>
+    <input type="date" name="start date" />
+    <legend>Ownership</legend>
+    <input name="ownership" list="ownership"/>
+      <datalist id="ownership" 
+        <option value="Public">
+        <option value="Public">
+        <option value="Private">
+      </datalist>
+<legend>Entity Type</legend>
+    <input name="entity" list="entity"/>
+      <datalist id="entity" 
+        <option value="Public">
+        <option value="LLC">
+        <option value="Corporation">
+        <option value="Non Profit">
+        <option value="Sole Proprietor">
+        <option value="LLP">
+        <option value="Government">
+      </datalist>
+<br>
+<label for="occupation">Business Description</label>
+    <br>
+    <textarea name='business-description' name='description'></textarea>
+  </fieldset>
+<br>
+</br>
+  <fieldset>
+    <legend>Requested Services, Billing, and Payment Terms</legend>
+    Subject to the terms of the agreement, and acceptance by KAPED of your application, KAPED will arrange for establishment of an account using a virtual card web based solution that allows company to request single use card numbers. Please select the desired KAPED solution(s) below (all subject to availability and underwriting and final approval by KAPED)
+    <br>
+    <br>
+    PAYMENT: Company will remit all funds due to KAPED by debit ACH. "Debit ACH" means a debit initiated by KAPED against an account designated by company
+    </br>
+</br>
+      <label for="loan amount">Requested Credit $</label>
+    <input type="number" name="loan amount" />
+<legend>Terms:</legend>
+    <input type="radio" name="terms" value="secured">Secured Account 
+<br>
+</br>
+<legend>Requested Services</legend> <input type="checkbox" name="requested-services" value="credit-card">Secured Credit Card
+<input type="checkbox" name="requested-services" value="kapital">Kapital
+<input type="checkbox" name="requested-services" value="trak">Merchant Account
+  </fieldset>
+<br>
+</br>
+  <fieldset>
+    <legend>Bank Information (To be used for payments via ACH debit initiated by KAPED)</legend>
+    <label for="bank-name">Bank Name</label>
+    <input type="text" name="bank-name">
+    <br>
+    </br>
+    <label for="account-name">Name on Checking Account</label>
+    <input type="text" name="account-name">
+    <label for="routing-number">Routing Number</label>
+    <input type="number" name="routing">
+    <label for="bank-name">Bank Account Number</label>
+    <input type="number" name="account">
+<br>
+</br>
+    <label for="bank-contact-name">Contact Name</label>
+    <input type="text" name="bank-contact-name">
+    <label for="bank-contact-name">Phone Number</label>
+    <input type="number" name="bank-phone">
+    <input type="radio" name="length-of-time" value="15">15
+    <input type="radio" name="length-of-time" value="30">30
+  </fieldset>
+<br>
+</br>
+  <fieldset>
+    <legend>Personal Guarantee</legend>
+    In exchange for KAPED'S and its sponsoring bank's (the "Guaranteed Parties") acceptance of the Agreement, the undersigned unconditionally and irrevocably guarantees the full payment and performance of Customer's obligations under the foregoing Agreement as modified from time to time, whether before or after termination or expiration of the Agreement and whether or not the undersigned has received notice of any amendment of such Agreement. The undersigned waives notice of default by Customer and agrees to indemnify the Guaranteed Parties for any and all amounts due from Customer under the Agreement. The Guaranteed Parties shall not be required to first proceed against Customer to enforce any remedy before proceeding against the undersigned. This is a continuing personal guaranty and shall not be discharged or affected for any reason. The undersigned understands that this is a personal guaranty of payment and not of collection and that the Guaranteed Parties are relying upon this Personal Guaranty in entering into the foregoing Agreement.
+    <br>
+    </br>
+    <label for="guarantor-name">Name</label>
+    <input type="text" name="guarantor" />
+<br>
+</br>
+    <label for="title">Title</label>
+    <input type="text" name="title" />
+<br>
+</br>
+<label for="date-signed">Date</label>
+    <input type="date" name="date-signed" />
+<input type="checkbox" name="accept" value="i-understand-and-accept-personal-liability"> I understand & accept personal liability
+  </fieldset>
+  <fieldset>
+    <legend>Comments</legend>
+    <textarea name='business-description' name='description'></textarea>
+    <div id="signature-pad" class="m-signature-pad">
+    <div class="m-signature-pad--body">
+      <section class="signature-component">
+  <h1>Draw Signature</h1>
+  <h2>with mouse or touch</h2>
+
+  <canvas id="signature-pad" width="400" height="200"></canvas>
+
+</section>
+
+
+    <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+  </fieldset>
+
+<button type="submit">Submit</button>
+</form>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'></script>
+<script src='https://codepen.io/pen?template=OJBZzKO.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
